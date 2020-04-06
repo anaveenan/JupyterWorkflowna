@@ -5,6 +5,7 @@ import pandas as pd
 FREMONT_URL = 'https://data.seattle.gov/api/views/65db-xm6k/rows.csv?accessType=DOWNLOAD'
 def get_fremont_data(filename='Fremont.csv',url=FREMONT_URL,forceDownload=False):
     """
+    Author : Naveenan Arjunan
     Parameters
     __________
     filename:string(optional)
